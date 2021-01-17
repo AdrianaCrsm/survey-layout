@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey01</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Adriana Crismariu">
+    <meta name="keywords" content="Survey">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="image-wrapper">
+                <img alt="page 01" src="images/step-1.png">
+            </div>
+            <h1>Notification Survey</h1>
+        </header>
+        <main>
+            <form action="page2.html" method="GET" id="form1">
+                <div class="info">
+                    <div>
+                        We're working on our notification system to make our product work better.
+                    </div>
+                    <div>
+                        The survey consists in several questions and usually takes 5-7 minutes to complete.
+                    </div>
+                </div>
+                <div class="email">
+                    <label for="email">Enter your email: </label>
+                    <input  class="place-style" name="Email" type="email" id="email" required placeholder="Your answer" />
+                </div>
+                <div class="question">
+                    <div>
+                        Are you an admin or a member on our Board?
+                    </div>
+                    <div class="answer">
+                        <div>
+                            <input type="radio" id="admin" name="tech" value="admin">
+                            <label for="admin">Admin</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="member" name="tech" value="member">
+                            <label for="member">Member</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div>
+                        How do you collaborate in our Board?
+                    </div>
+                    <div class="answer">
+                        <div>
+                            <input type="radio" id="content" name="asc" value="content">
+                            <label for="content">Create and edit content</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="comment" name="asc" value="comment">
+                            <label for="comment">Comment and leave comment</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="review" name="asc" value="review">
+                            <label for="review">Just review created comment</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="other" name="asc" value="other">
+                            <label for="other">Other:</label>
+                            <input class="other place-style" type="text" id="other_write" >
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <button  class="center" type="submit" form="form1">NEXT</button>
+        </footer>
+    </div>
+</body>
+
+</html>

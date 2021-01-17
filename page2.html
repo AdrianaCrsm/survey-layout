@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey02</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Adriana Crismariu">
+    <meta name="keywords" content="Survey">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="image-wrapper">
+                <img alt="page 01" src="images/step-2.png">
+            </div>
+            <h1>Notification Survey</h1>
+        </header>
+        <main>
+            <form method="GET" id="form2">
+                <div id="question-1">
+                    <div>
+                        Would you recommend our Board to other users?
+                    </div>
+                    <div class="choice mark">
+                        <a href="#">
+                            <div class="square">1</div>
+                        </a>
+                        <a href="#">
+                            <div class="square green-square">2</div>
+                        </a>
+                        <a href="#">
+                            <div class="square">3</div>
+                        </a>
+                        <a href="#">
+                            <div class="square">4</div>
+                        </a>
+                        <a href="#">
+                            <div class="square">5</div>
+                        </a>
+                    </div>
+                    <div class="mark">
+                        <div>Not at all likely</div>
+                        <div>Extremely likely</div>
+                    </div>
+                </div>
+                <div class="question">
+                    <div>
+                        Pick the 3 things you find most important with the integration documentation:
+                    </div>
+                    <div class="answer">
+                        <div class="line">
+                            <div>
+                                <input type="checkbox" id="tutorials" name="check" value="tutorials">
+                                <label for="tutorials">Tutorials</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="api" name="check" value="api">
+                                <label for="api">API Reference</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="examples" name="check" value="examples">
+                                <label for="examples">Inline code examples</label>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <div>
+                                <input type="checkbox" id="consistens" name="check" value="consistens">
+                                <label for="consistens">Clear consistens content</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="repos" name="check" value="repos">
+                                <label for="repos">Runnable example repos</label>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <div>
+                                <input type="checkbox" id="support" name="check" value="support">
+                                <label for="support">Support</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="navigation" name="check" value="navigation">
+                                <label for="navigation">Navigation & search</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="design" name="check" value="design">
+                                <label for="design">Design & usability</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="question">
+                    <div>
+                        How would you score your navigation experience so far?
+                    </div>
+                    <div class="answer">
+                        <div class="mark line">
+                            <div class="icon-wrapper">
+                                <img alt="icon-1" src="images/expectations-level-1.png">
+                            </div>
+                            <div class="icon-wrapper">
+                                <img alt="icon-1" src="images/expectations-level-2.png">
+                            </div>
+                            <div class="icon-wrapper">
+                                <img alt="icon-1" src="images/expectations-level-3.png">
+                            </div>
+                            <div class="icon-wrapper">
+                                <img alt="icon-1" src="images/expectations-level-4.png">
+                            </div>
+                            <div class="icon-wrapper">
+                                <img alt="icon-1" src="images/expectations-level-5.png">
+                            </div>
+                        </div>
+                        <div class="mark line">
+                            <div class="expect">Didn't meet expectations</div>
+                            <div class="expect end"> Exceeded expectations</div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </main>
+        <footer class="footer-wrapper mark">
+            <button type="submit" form="form2">SAVE</button>
+            <a href="page1.html" >BACK</a>
+        </footer>
+    </div>
+</body>
+
+</html>
